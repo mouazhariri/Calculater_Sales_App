@@ -1,0 +1,12 @@
+<resources>
+    <!-- Light Theme Colors -->
+    <color name="colorPrimary">#2d4a53</color>
+    <color name="colorPrimaryVariant">#69818d</color>
+    <color name="colorSecondary">#03DAC6</color>
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="textColorPrimary">#000000</color> <!-- Primary text color -->
+    <color name="textColorSecondary">#555555</color> <!-- Secondary text color -->
+
+    <!-- Hint Text Color -->
+    <color name="hintTextColor">#888888</color> <!-- Grey color for hint text -->
+</resources>

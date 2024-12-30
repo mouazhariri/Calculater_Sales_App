@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="برنامج حساب عمولات المبيعات"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="@color/textColorPrimary" />
+
+    <!-- GridLayout for boxes -->
+    <GridLayout
+        android:id="@+id/GridLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:padding="8dp"
+        android:layout_marginTop="16dp">
+
+        <!-- Box 1 -->
+        <Button
+            android:id="@+id/btnManageReps"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="إدارة المندوبين"
+            android:backgroundTint="#2d4a53"
+            android:textColor="#FFFFFF"
+            android:layout_margin="8dp" />
+
+        <!-- Box 2 -->
+        <Button
+            android:id="@+id/btnSalesInput"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="إدخال المبيعات وحساب العمولات"
+            android:backgroundTint="#2d4a53"
+            android:textColor="#FFFFFF"
+            android:layout_margin="8dp" />
+
+        <!-- Box 3 -->
+        <Button
+            android:id="@+id/btnSearchSales"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="البحث عن المبيعات"
+            android:backgroundTint="#2d4a53"
+            android:textColor="#FFFFFF"
+            android:layout_margin="8dp" />
+
+        <!-- Box 4 -->
+        <Button
+            android:id="@+id/btnSearchCommissions"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="البحث عن العمولات"
+            android:backgroundTint="#2d4a53"
+            android:textColor="#FFFFFF"
+            android:layout_margin="8dp" />
+    </GridLayout>
+
+</LinearLayout>

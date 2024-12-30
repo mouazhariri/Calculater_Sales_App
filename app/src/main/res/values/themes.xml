@@ -1,0 +1,26 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Light Theme -->
+    <style name="Theme.MyApplication" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+
+        <!-- Background Colors -->
+        <item name="android:windowBackground">@color/backgroundColor</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/textColorPrimary</item> <!-- Primary text color -->
+        <item name="android:textColorSecondary">@color/textColorSecondary</item> <!-- Secondary text color -->
+        <item name="dividerColor">@color/textColorSecondary</item>
+
+        <!-- Hint Text Color -->
+        <item name="android:textColorHint">@color/hintTextColor</item> <!-- Hint text color -->
+
+        <!-- Button Customization -->
+        <item name="buttonStyle">@style/Widget.MaterialComponents.Button</item>
+
+    </style>
+
+</resources>
